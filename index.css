@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+body{
+    background: linear-gradient(rgb(8 8 8),rgb(0 0 0 / 95%),rgb(79 76 76));
+}
+
+
+/* =============Section-1-START================= */
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.748),rgba(0, 0, 0, 0.821)),url(images/main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 7px;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.navlinks li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.navlinks li a{
+    text-decoration: none;
+    color: #ede9e9;
+}
+
+.register-btn{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgb(239, 118, 118);
+    border: 1px solid rgb(218, 56, 56);
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.register-btn:hover{
+    border: 1px solid brown;
+    background: brown;
+    transition: 0.5s;
+    color: white;
+}
+
+.container{
+    padding: 0 7%;
+}
+
+.header h1{
+    font-size: 4vw;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.searchbox{
+    background: rgb(255, 255, 255);
+    width: 70%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 40px;
+}
+
+.searchbox form{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.searchbox form input{
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.searchbox form button{
+    padding: 10px 20px;
+    color: rgb(241, 51, 51);
+    border: 1px solid rgb(218, 56, 56);
+    border-radius: 40px;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+}
+.searchbox form button:hover{
+    border: 1px solid brown;
+    background: brown;
+    transition: 0.5s;
+    color: white;
+}
+
+.locationinput{
+    flex: 1;
+}
+
+.searchbox form label{
+    font-weight: 600;
+}
+
+
+
+/* =============Section-2-START================== */
+
+.page2 h1{
+    margin-top: 100px;
+    /* text-align: center; */
+    font-size: 40px;
+    margin-left: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+
+
+
+.popular{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.popular img{
+    width: 300px;
+    height: 250px;
+    /* display: block;
+    margin: auto; */
+}
+
+.div1{
+    /* width: 500px; */
+    height: 750px;
+    /* padding: 40px 100px; */
+}
+
+.div2{
+    display: flex;
+    text-align: center;
+}
+.div3{
+    width: 150px; 
+    padding: 10px;   
+}
+.div4{
+    padding: 10px;   
+    width: 150px;
+}
+
+.div5{
+    width: 300px;
+    padding: 15px;
+    line-height: 20px;
+}
+
+.div6{
+    width: 300px;
+    text-align: center;
+}
+
+.div6 button{
+    padding: 10px 20px;
+    color: rgb(243, 238, 238);
+    border: 1px solid rgb(235, 234, 234);
+    border-radius: 40px;
+    font-size: 14px;
+    background: transparent;
+    cursor: pointer;
+}
+.div6 button:hover{
+    border: 1px solid brown;
+    background: brown;
+    transition: 0.5s;
+    color: white;
+}
+
+
+
+/* ============Section-3-START=========== */
+
+.page3 h1{
+    margin-top: 100px;
+    /* text-align:center; */
+    font-size: 50px;
+    margin-left: 110px;
+}
+
+.page3 h4{
+    margin-left: 110px;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.price{}
+
+.price img{
+    width: 200px;
+    height: 150px;
+}
+
+.price h3{
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+.price p{
+    width: 200px;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+
+
+/* ===========Footer-START================== */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding: 80px;
+}
+
+.foot2 h4{
+    padding: 20px 0px;
+}
+
+.foot2 h5{
+    line-height: 20px;
+}
+
+.foot3 input{
+    padding: 5px 0;
+    margin-top: 10px;
+}
+
+.foot4 h3{
+    padding: 20px 0;
+}
+
+.foot4 h5{
+    margin-bottom: 10px;
+    color:aqua;
+}
+
+.foot4 p{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===============media========================== */
+
+
+@media only screen and (max-width:700px) {
+    .navlinks{
+        display: none;
+    }
+
+    .logo{
+        width: 80px;
+    }
+
+    .register-btn{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .searchbox form button{
+        padding: 5px 10px;
+        font-size: 10px;
+    }
+
+    .container{
+        margin-top: 80px;
+    }
+
+ 
+/* ==========Section-2-START================ */
+
+
+    .popular{margin-left: 0;
+    }
+    .page2 h1{
+        /* margin-left: 0px; */
+        margin: 0;
+        text-align: center;
+    }
+
+
+/* =============Section-3-START============== */
+
+
+    .page3 h1{
+        margin: 0;
+        text-align: center;
+    }
+    .page3 h4{
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+/* ==========Footer-START================= */
+
+.footer{
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+
+
+}
